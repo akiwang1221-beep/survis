@@ -5,6 +5,8 @@
         "booktitle": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3544549.3585650",
         "keywords": "eye-based, gaze-metrics, cognitive-load",
+        "pages": "1--8",
+        "publisher": "Association for Computing Machinery",
         "title": "Gaze-based Metrics of Cognitive Load in a Conjunctive Visual Memory Task",
         "type": "inproceedings",
         "year": "2023"
@@ -15,8 +17,11 @@
         "doi": "10.1016/j.chbr.2021.100116",
         "journal": "Computers in Human Behavior Reports",
         "keywords": "peripheral, wristband, wearable, cognitive-load, machine-learning",
+        "pages": "100116",
+        "publisher": "Elsevier",
         "title": "Robust Cognitive Load Detection from Wrist-Band Sensors",
         "type": "article",
+        "volume": "4",
         "year": "2021"
     },
     "Duchowski2018IPA": {
@@ -25,6 +30,8 @@
         "booktitle": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3173574.3173856",
         "keywords": "eye-based, pupil-oscillation, cognitive-load",
+        "pages": "1--13",
+        "publisher": "Association for Computing Machinery",
         "title": "The Index of Pupillary Activity: Measuring Cognitive Load vis-a-vis Task Difficulty with Pupil Oscillation",
         "type": "inproceedings",
         "year": "2018"
@@ -35,8 +42,12 @@
         "doi": "10.1145/3676531",
         "journal": "Proceedings of the ACM on Human-Computer Interaction",
         "keywords": "eye-based, pupil-dilation, VR, mental-workload, adaptive-reading",
+        "number": "MHCI",
+        "pages": "1--17",
+        "publisher": "Association for Computing Machinery",
         "title": "Your Eyes on Speed: Using Pupil Dilation to Adaptively Select Speed-Reading Parameters in Virtual Reality",
         "type": "article",
+        "volume": "8",
         "year": "2024"
     },
     "Kosch2018CognitiveAssistance": {
@@ -45,8 +56,12 @@
         "doi": "10.1145/3229093",
         "journal": "Proceedings of the ACM on Human-Computer Interaction",
         "keywords": "brain-based, EEG, cognitive-load, manual-assembly",
+        "number": "EICS",
+        "pages": "1--20",
+        "publisher": "Association for Computing Machinery",
         "title": "Identifying Cognitive Assistance with Mobile Electroencephalography: A Case Study with In-Situ Projections for Manual Assembly",
         "type": "article",
+        "volume": "2",
         "year": "2018"
     },
     "Kosch2018LookIntoEyes": {
@@ -55,6 +70,8 @@
         "booktitle": "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3170427.3188643",
         "keywords": "eye-based, pupil-dilation, mental-workload, adaptive-interface",
+        "pages": "1--6",
+        "publisher": "Association for Computing Machinery",
         "title": "Look into my Eyes: Using Pupil Dilation to Estimate Mental Workload for Task Complexity Adaptation",
         "type": "inproceedings",
         "year": "2018"
@@ -65,6 +82,8 @@
         "booktitle": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3173574.3174010",
         "keywords": "eye-based, smooth-pursuit, cognitive-load, machine-learning",
+        "pages": "1--13",
+        "publisher": "Association for Computing Machinery",
         "title": "Your Eyes Tell: Leveraging Smooth Pursuit for Assessing Cognitive Workload",
         "type": "inproceedings",
         "year": "2018"
@@ -75,6 +94,8 @@
         "booktitle": "Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems",
         "doi": "10.1145/3319499.3328230",
         "keywords": "peripheral, EDA, cognitive-load, manual-assembly",
+        "pages": "1--5",
+        "publisher": "Association for Computing Machinery",
         "title": "Your Skin Resists: Exploring Electrodermal Activity as Workload Indicator During Manual Assembly",
         "type": "inproceedings",
         "year": "2019"
@@ -85,6 +106,8 @@
         "booktitle": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3313831.3376766",
         "keywords": "brain-based, EEG, mental-workload, adaptive-reading",
+        "pages": "1--13",
+        "publisher": "Association for Computing Machinery",
         "title": "One does not Simply RSVP: Mental Workload to Select Speed Reading Parameters using Electroencephalography",
         "type": "inproceedings",
         "year": "2020"
@@ -95,8 +118,12 @@
         "doi": "10.1145/3582272",
         "journal": "ACM Computing Surveys",
         "keywords": "survey, cognitive-load, HCI, physiological-sensing",
+        "number": "13s",
+        "pages": "1--39",
+        "publisher": "Association for Computing Machinery",
         "title": "A Survey on Measuring Cognitive Workload in Human-Computer Interaction",
         "type": "article",
+        "volume": "55",
         "year": "2023"
     },
     "Nourbakhsh2017GSR": {
@@ -105,8 +132,12 @@
         "doi": "10.1145/2960413",
         "journal": "ACM Transactions on Interactive Intelligent Systems",
         "keywords": "peripheral, GSR, cognitive-load, affective-interference",
+        "number": "3",
+        "pages": "1--20",
+        "publisher": "Association for Computing Machinery",
         "title": "Detecting Users' Cognitive Load by Galvanic Skin Response with Affective Interference",
         "type": "article",
+        "volume": "7",
         "year": "2017"
     },
     "Oppelt2023ADABase": {
@@ -115,8 +146,12 @@
         "doi": "10.3390/s23010340",
         "journal": "Sensors",
         "keywords": "multimodal, cognitive-load, dataset, machine-learning",
+        "number": "1",
+        "pages": "340",
+        "publisher": "MDPI",
         "title": "ADABase: A Multimodal Dataset for Cognitive Load Estimation",
         "type": "article",
+        "volume": "23",
         "year": "2023"
     },
     "Silveira2024Physiological": {
@@ -125,16 +160,22 @@
         "doi": "10.1080/10447318.2024.2311972",
         "journal": "International Journal of Human-Computer Interaction",
         "keywords": "survey, UX-QoE, physiological-sensing, multimodal",
-        "title": "Physiological Data for User Experience and Quality of Experience: A Systematic Review (2018-2022)",
+        "number": "1",
+        "pages": "664--693",
+        "publisher": "Taylor \\& Francis",
+        "title": "Physiological Data for User Experience and Quality of Experience: A Systematic Review (2018--2022)",
         "type": "article",
+        "volume": "41",
         "year": "2024"
     },
     "Tang2024VerbalImagery": {
         "abstract": "CW1 anchor paper using fNIRS, subjective workload and search behaviour data to study mental workload during web search.",
         "author": "Tang, Huimin and Benerradi, Johann and Maior, Horia A. and Pike, Matthew and Landowska, Aleksandra and Wilson, Max L.",
-        "booktitle": "Proceedings of the 2024 Conference on Human Information Interaction and Retrieval",
+        "booktitle": "Proceedings of the 2024 ACM SIGIR Conference on Human Information Interaction and Retrieval",
         "doi": "10.1145/3627508.3638313",
         "keywords": "brain-based, fNIRS, mental-workload, web-search",
+        "pages": "303--316",
+        "publisher": "Association for Computing Machinery",
         "title": "Exploring the Impact of Verbal-Imagery Cognitive Style on Web Search Behaviour and Mental Workload",
         "type": "inproceedings",
         "year": "2024"
@@ -142,9 +183,11 @@
     "Vijayakumar2022BiLSTM": {
         "abstract": "Uses BiLSTM models to predict Quality of Experience from physiological signals in multimedia experience data.",
         "author": "Vijayakumar, Sowmya and Flynn, Ronan and Corcoran, Peter and Murray, Niall",
-        "booktitle": "2022 14th International Conference on Quality of Multimedia Experience",
+        "booktitle": "2022 14th International Conference on Quality of Multimedia Experience (QoMEX)",
         "doi": "10.1109/QoMEX55416.2022.9900877",
         "keywords": "multimodal, UX-QoE, physiological-sensing, deep-learning",
+        "pages": "1--4",
+        "publisher": "IEEE",
         "title": "BiLSTM-based Quality of Experience Prediction using Physiological Signals",
         "type": "inproceedings",
         "year": "2022"
