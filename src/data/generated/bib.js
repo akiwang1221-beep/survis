@@ -1,17 +1,152 @@
 ﻿const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
-        "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+    "Bacchin2023GazeMetrics": {
+        "abstract": "Evaluates gaze-based metrics such as LHIPA and microsaccade magnitude for cognitive load in a visual memory task.",
+        "author": "Bacchin, Davide and Gehrer, Nina A. and Krejtz, Krzysztof and Duchowski, Andrew T. and Gamberini, Luciano",
+        "booktitle": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3544549.3585650",
+        "keywords": "eye-based, gaze-metrics, cognitive-load",
+        "title": "Gaze-based Metrics of Cognitive Load in a Conjunctive Visual Memory Task",
+        "type": "inproceedings",
+        "year": "2023"
+    },
+    "Borisov2021WristBand": {
+        "abstract": "Uses wrist-band physiological features and ensemble learning for robust cognitive load classification.",
+        "author": "Borisov, Vadim and Kasneci, Enkelejda and Kasneci, Gjergji",
+        "doi": "10.1016/j.chbr.2021.100116",
+        "journal": "Computers in Human Behavior Reports",
+        "keywords": "peripheral, wristband, wearable, cognitive-load, machine-learning",
+        "title": "Robust Cognitive Load Detection from Wrist-Band Sensors",
         "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
+        "year": "2021"
+    },
+    "Duchowski2018IPA": {
+        "abstract": "Introduces an eye-tracked Index of Pupillary Activity to measure cognitive load through pupil oscillation under different task difficulties.",
+        "author": "Duchowski, Andrew T. and Krejtz, Krzysztof and Krejtz, Izabela and Biele, Cezary and Niedzielska, Anna and Kiefer, Peter and Raubal, Martin and Giannopoulos, Ioannis",
+        "booktitle": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3173574.3173856",
+        "keywords": "eye-based, pupil-oscillation, cognitive-load",
+        "title": "The Index of Pupillary Activity: Measuring Cognitive Load vis-a-vis Task Difficulty with Pupil Oscillation",
+        "type": "inproceedings",
+        "year": "2018"
+    },
+    "Grootjen2024EyesSpeed": {
+        "abstract": "Uses pupil dilation to assess mental workload and adapt speed-reading parameters in virtual reality.",
+        "author": "Grootjen, Jesse W. and Thalhammer, Philipp and Kosch, Thomas",
+        "doi": "10.1145/3676531",
+        "journal": "Proceedings of the ACM on Human-Computer Interaction",
+        "keywords": "eye-based, pupil-dilation, VR, mental-workload, adaptive-reading",
+        "title": "Your Eyes on Speed: Using Pupil Dilation to Adaptively Select Speed-Reading Parameters in Virtual Reality",
+        "type": "article",
+        "year": "2024"
+    },
+    "Kosch2018CognitiveAssistance": {
+        "abstract": "Uses mobile EEG to assess cognitive assistance in manual assembly with in-situ projection instructions.",
+        "author": "Kosch, Thomas and Funk, Markus and Schmidt, Albrecht and Chuang, Lewis L.",
+        "doi": "10.1145/3229093",
+        "journal": "Proceedings of the ACM on Human-Computer Interaction",
+        "keywords": "brain-based, EEG, cognitive-load, manual-assembly",
+        "title": "Identifying Cognitive Assistance with Mobile Electroencephalography: A Case Study with In-Situ Projections for Manual Assembly",
+        "type": "article",
+        "year": "2018"
+    },
+    "Kosch2018LookIntoEyes": {
+        "abstract": "Pilot cognition-aware system using pupil dilation to estimate mental workload and adapt task complexity.",
+        "author": "Kosch, Thomas and Hassib, Mariam and Buschek, Daniel and Schmidt, Albrecht",
+        "booktitle": "Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3170427.3188643",
+        "keywords": "eye-based, pupil-dilation, mental-workload, adaptive-interface",
+        "title": "Look into my Eyes: Using Pupil Dilation to Estimate Mental Workload for Task Complexity Adaptation",
+        "type": "inproceedings",
+        "year": "2018"
+    },
+    "Kosch2018SmoothPursuit": {
+        "abstract": "Uses smooth pursuit eye movements and SVM classification to assess cognitive workload in real time.",
+        "author": "Kosch, Thomas and Hassib, Mariam and Wozniak, Pawel W. and Buschek, Daniel and Alt, Florian",
+        "booktitle": "Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3173574.3174010",
+        "keywords": "eye-based, smooth-pursuit, cognitive-load, machine-learning",
+        "title": "Your Eyes Tell: Leveraging Smooth Pursuit for Assessing Cognitive Workload",
+        "type": "inproceedings",
+        "year": "2018"
+    },
+    "Kosch2019SkinResists": {
+        "abstract": "Explores electrodermal activity as a peripheral physiological workload indicator during manual assembly.",
+        "author": "Kosch, Thomas and Karolus, Jakob and Ha, Huy Viet Le and Schmidt, Albrecht",
+        "booktitle": "Proceedings of the ACM SIGCHI Symposium on Engineering Interactive Computing Systems",
+        "doi": "10.1145/3319499.3328230",
+        "keywords": "peripheral, EDA, cognitive-load, manual-assembly",
+        "title": "Your Skin Resists: Exploring Electrodermal Activity as Workload Indicator During Manual Assembly",
+        "type": "inproceedings",
+        "year": "2019"
+    },
+    "Kosch2020RSVP": {
+        "abstract": "Uses EEG to assess mental workload and help select RSVP speed-reading parameters.",
+        "author": "Kosch, Thomas and Schmidt, Albrecht and Thanheiser, Simon and Chuang, Lewis L.",
+        "booktitle": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+        "doi": "10.1145/3313831.3376766",
+        "keywords": "brain-based, EEG, mental-workload, adaptive-reading",
+        "title": "One does not Simply RSVP: Mental Workload to Select Speed Reading Parameters using Electroencephalography",
+        "type": "inproceedings",
+        "year": "2020"
+    },
+    "Kosch2023Survey": {
+        "abstract": "Survey of cognitive workload measurement in HCI, used as the main seed survey and theoretical background for workload-aware systems.",
+        "author": "Kosch, Thomas and Karolus, Jakob and Zagermann, Johannes and Reiterer, Harald and Schmidt, Albrecht and Wozniak, Pawel W.",
+        "doi": "10.1145/3582272",
+        "journal": "ACM Computing Surveys",
+        "keywords": "survey, cognitive-load, HCI, physiological-sensing",
+        "title": "A Survey on Measuring Cognitive Workload in Human-Computer Interaction",
+        "type": "article",
+        "year": "2023"
+    },
+    "Nourbakhsh2017GSR": {
+        "abstract": "Uses galvanic skin response to detect cognitive load while considering affective interference as a confounding factor.",
+        "author": "Nourbakhsh, Nargess and Chen, Fang and Wang, Yang and Calvo, Rafael A.",
+        "doi": "10.1145/2960413",
+        "journal": "ACM Transactions on Interactive Intelligent Systems",
+        "keywords": "peripheral, GSR, cognitive-load, affective-interference",
+        "title": "Detecting Users' Cognitive Load by Galvanic Skin Response with Affective Interference",
+        "type": "article",
+        "year": "2017"
+    },
+    "Oppelt2023ADABase": {
+        "abstract": "Introduces a multimodal physiological, behavioural and questionnaire dataset for cognitive load estimation in autonomous driving tasks.",
+        "author": "Oppelt, Maximilian P. and Foltyn, Andreas and Deuschel, Jessica and Lang, Nadine R. and Holzer, Nina and Eskofier, Bjoern M. and Yang, Seung Hee",
+        "doi": "10.3390/s23010340",
+        "journal": "Sensors",
+        "keywords": "multimodal, cognitive-load, dataset, machine-learning",
+        "title": "ADABase: A Multimodal Dataset for Cognitive Load Estimation",
+        "type": "article",
+        "year": "2023"
+    },
+    "Silveira2024Physiological": {
+        "abstract": "Systematic review of physiological data in UX and QoE assessment, supporting the broader user-experience side of user state recognition.",
+        "author": "Campos da Silveira, Aleph and Lima de Souza, Mariane and Ghinea, Gheorghita and Saibel Santos, Celso Alberto",
+        "doi": "10.1080/10447318.2024.2311972",
+        "journal": "International Journal of Human-Computer Interaction",
+        "keywords": "survey, UX-QoE, physiological-sensing, multimodal",
+        "title": "Physiological Data for User Experience and Quality of Experience: A Systematic Review (2018-2022)",
+        "type": "article",
+        "year": "2024"
+    },
+    "Tang2024VerbalImagery": {
+        "abstract": "CW1 anchor paper using fNIRS, subjective workload and search behaviour data to study mental workload during web search.",
+        "author": "Tang, Huimin and Benerradi, Johann and Maior, Horia A. and Pike, Matthew and Landowska, Aleksandra and Wilson, Max L.",
+        "booktitle": "Proceedings of the 2024 Conference on Human Information Interaction and Retrieval",
+        "doi": "10.1145/3627508.3638313",
+        "keywords": "brain-based, fNIRS, mental-workload, web-search",
+        "title": "Exploring the Impact of Verbal-Imagery Cognitive Style on Web Search Behaviour and Mental Workload",
+        "type": "inproceedings",
+        "year": "2024"
+    },
+    "Vijayakumar2022BiLSTM": {
+        "abstract": "Uses BiLSTM models to predict Quality of Experience from physiological signals in multimedia experience data.",
+        "author": "Vijayakumar, Sowmya and Flynn, Ronan and Corcoran, Peter and Murray, Niall",
+        "booktitle": "2022 14th International Conference on Quality of Multimedia Experience",
+        "doi": "10.1109/QoMEX55416.2022.9900877",
+        "keywords": "multimodal, UX-QoE, physiological-sensing, deep-learning",
+        "title": "BiLSTM-based Quality of Experience Prediction using Physiological Signals",
+        "type": "inproceedings",
+        "year": "2022"
     }
 };
